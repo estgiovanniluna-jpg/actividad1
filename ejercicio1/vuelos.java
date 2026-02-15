@@ -2,12 +2,13 @@ package ejercicio1;
 
 public class vuelos {
     private Ciudad ciudadSalida, ciudadLlegada;
-    private int numeroVuelo, duracionVuelo;
+    private int numeroVuelo, duracionVuelo, horaSalida;
 
     // Constructor
     public vuelos(int numeroVuelo, Ciudad ciudadSalida, Ciudad ciudadLlegada, int horaSalida,int duracionVuelo){
         this.numeroVuelo = numeroVuelo;
         this.ciudadSalida = ciudadSalida;
+        this.horaSalida = horaSalida;
         this.ciudadLlegada = ciudadLlegada;
         this.duracionVuelo = duracionVuelo;
     }
@@ -19,6 +20,10 @@ public class vuelos {
 
     public Ciudad getCiudadLlegada() {
         return ciudadLlegada;
+    }
+
+    public int getHoraSalida() {
+        return horaSalida;
     }
 
     public int getNumeroVuelo() {
