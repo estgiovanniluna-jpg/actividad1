@@ -34,14 +34,16 @@ public class tiquete{
 
     // Método para mostrar información completa
     public void mostrarInfo() {
-        JOptionPane.showMessageDialog(null,"=== INFORMACIÓN DEL TIQUETE ===");
-        JOptionPane.showMessageDialog(null,"Tiquete No: " + numero);
-        JOptionPane.showMessageDialog(null,"Fecha: " + fechaCompra);
-        JOptionPane.showMessageDialog(null,"\nVuelo No: " + vuelo.getNumeroVuelo());
-        JOptionPane.showMessageDialog(null,"Ciudad Destino: " + vuelo.getCiudadLlegada().getNombre());
-        JOptionPane.showMessageDialog(null,"Hora Salida: " + vuelo.getHoraSalida());
-        JOptionPane.showMessageDialog(null,"\nPasajero: " + pasajero.getNombre());
-        JOptionPane.showMessageDialog(null,"CC: " + pasajero.getIdentificacion());
-        JOptionPane.showMessageDialog(null,"Silla: " + numeroSilla);
-    }
+        JOptionPane.showMessageDialog(null, 
+            "=== INFORMACIÓN DEL TIQUETE ===\n" +
+            "Tiquete No: " + numero + "\n" +
+            "Fecha: " + fechaCompra + "\n\n" +
+            "Vuelo No: " + vuelo.getNumeroVuelo() + "\n" +
+            "Ciudad Destino: " + vuelo.getCiudadLlegada().getNombre() + "\n" +
+            "Hora Salida: " + vuelo.getHoraSalida() + "\n\n" +
+            "Pasajero: " + pasajero.getNombre() + "\n" +
+            "CC: " + pasajero.getIdentificacion() + "\n" +
+            "Silla: " + numeroSilla);
+            }
+
 }

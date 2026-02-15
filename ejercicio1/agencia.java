@@ -27,14 +27,14 @@ public class agencia {
         Ciudad ciudad2 = new Ciudad(2, "Barranquilla");
 
         // Crear un objeto de la clase vuelos
-        vuelos vuelo1 = new vuelos(123, ciudad1, ciudad2, 62, 120);
+        vuelos vuelo1 = new vuelos(123, ciudad2, ciudad1, 62, 120);
 
         //Crear un objeto de la clase pasajero
         pasajero pasajero1 = new pasajero(1, "Ciro Muñoz", 33, "Masculino");
         pasajero pasajero2 = new pasajero(2, "Giovanni Luna", 28, "Femenino");
         pasajero pasajero3 = new pasajero(3, "Natalia Osorio", 4, "Masculino");
 
-        tiquete tiquete1 = new tiquete(1, 20240601, vuelo1, pasajero1, 23);
+        tiquete tiquete1 = new tiquete(1, 20240601, vuelo1, pasajero2, 23);
 
         tiquete1.mostrarInfo();
     }
