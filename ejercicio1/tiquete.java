@@ -1,5 +1,5 @@
 package ejercicio1;
-
+import javax.swing.JOptionPane;
 public class tiquete{
 
  
@@ -34,14 +34,14 @@ public class tiquete{
 
     // Método para mostrar información completa
     public void mostrarInfo() {
-        System.out.println("=== INFORMACIÓN DEL TIQUETE ===");
-        System.out.println("Tiquete No: " + numero);
-        System.out.println("Fecha: " + fechaCompra);
-        System.out.println("\nVuelo No: " + vuelo.getNumeroVuelo());
-        System.out.println("Ciudad Destino: " + vuelo.getCiudadLlegada().getNombre());
-        System.out.println("Hora Salida: " + vuelo.getHoraSalida());
-        System.out.println("\nPasajero: " + pasajero.getNombre());
-        System.out.println("CC: " + pasajero.getIdentificacion());
-        System.out.println("Silla: " + numeroSilla);
+        JOptionPane.showMessageDialog(null,"=== INFORMACIÓN DEL TIQUETE ===");
+        JOptionPane.showMessageDialog(null,"Tiquete No: " + numero);
+        JOptionPane.showMessageDialog(null,"Fecha: " + fechaCompra);
+        JOptionPane.showMessageDialog(null,"\nVuelo No: " + vuelo.getNumeroVuelo());
+        JOptionPane.showMessageDialog(null,"Ciudad Destino: " + vuelo.getCiudadLlegada().getNombre());
+        JOptionPane.showMessageDialog(null,"Hora Salida: " + vuelo.getHoraSalida());
+        JOptionPane.showMessageDialog(null,"\nPasajero: " + pasajero.getNombre());
+        JOptionPane.showMessageDialog(null,"CC: " + pasajero.getIdentificacion());
+        JOptionPane.showMessageDialog(null,"Silla: " + numeroSilla);
     }
 }

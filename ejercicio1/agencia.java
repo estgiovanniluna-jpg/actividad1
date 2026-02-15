@@ -1,7 +1,5 @@
 package ejercicio1;
 
-import javax.swing.JOptionPane;
-
 public class agencia {
     
     private int id;
