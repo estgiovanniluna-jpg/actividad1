@@ -21,7 +21,7 @@ public class datos_tiquetes {
 
     public int getFechaCompra() {
         return fechaCompra;
-    }
+    }   
 
     public int getnumeroSilla() {
         return numeroSilla;
