@@ -6,7 +6,7 @@ public class tipo_producto {
     private String descripcion;
     private double porcentajeIva;
 
-    public class tipo_producto (int id, String nombre, double porcentajeIva){
+    public tipo_producto (int id, String descripcion, double porcentajeIva){
         this.id = id;
         this.descripcion = descripcion;
         this.porcentajeIva = porcentajeIva;
