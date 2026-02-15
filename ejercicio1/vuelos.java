@@ -1,11 +1,11 @@
 package ejercicio1;
 
 public class vuelos {
-    private String ciudadSalida, ciudadLlegada;
+    private Ciudad ciudadSalida, ciudadLlegada;
     private int numeroVuelo, duracionVuelo;
 
     // Constructor
-    public vuelos(int numeroVuelo, String ciudadSalida, String ciudadLlegada, int horaSalida,int duracionVuelo){
+    public vuelos(int numeroVuelo, Ciudad ciudadSalida, Ciudad ciudadLlegada, int horaSalida,int duracionVuelo){
         this.numeroVuelo = numeroVuelo;
         this.ciudadSalida = ciudadSalida;
         this.ciudadLlegada = ciudadLlegada;
@@ -13,11 +13,11 @@ public class vuelos {
     }
 
     // Getters
-    public String getCiudadSalida() {
+    public Ciudad getCiudadSalida() {
         return ciudadSalida;
     }
 
-    public String getCiudadLlegada() {
+    public Ciudad getCiudadLlegada() {
         return ciudadLlegada;
     }
 
