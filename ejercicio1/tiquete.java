@@ -21,7 +21,7 @@ public class tiquete{
 
     public int getFechaCompra() {
         return fechaCompra;
-    }
+    }   
 
     public int getnumeroSilla() {
         return numeroSilla;
