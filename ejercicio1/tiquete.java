@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class datos_tiquetes {
+public class tiquete{
 
  
     private int numero;
@@ -8,7 +8,7 @@ public class datos_tiquetes {
     private int numeroSilla;
 
   
-    public datos_tiquetes( int numero, int fechaCompra, int numeroSilla) {
+    public tiquete( int numero, int fechaCompra, int numeroSilla) {
         
         this.numero = numero;
         this.fechaCompra = fechaCompra;
