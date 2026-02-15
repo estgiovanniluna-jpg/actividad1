@@ -1,18 +1,16 @@
 package ejercicio2;
 
-public class proveedor {
-    private int identificacion;
-    private String nombre;
+public class proveedor extends persona{
 
-    public proveedor(int identifiacion, string nombre) {
-        this.identificacion = identificacion;
-        this.nombre = nombre;
+    
+
+    public proveedor (int identificacion, String nombre) {
+        super (identificacion, nombre);
     }
-
-    public Int getIdentificacion() {
+    
+    public int getIdentificacion() {
         return identificacion;
     }
 
-    
 }
 
