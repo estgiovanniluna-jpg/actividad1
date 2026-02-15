@@ -5,7 +5,7 @@ public class vuelos {
     private int numeroVuelo, duracionVuelo;
 
     // Constructor
-    public vuelos(int numeroVuelo, String ciudadSalida, String ciudadLlegada, int duracionVuelo){
+    public vuelos(int numeroVuelo, String ciudadSalida, String ciudadLlegada, int horaSalida,int duracionVuelo){
         this.numeroVuelo = numeroVuelo;
         this.ciudadSalida = ciudadSalida;
         this.ciudadLlegada = ciudadLlegada;
