@@ -5,8 +5,8 @@ public class Ciudad {
     private int id;
     private String nombre;
 
-    public Ciudad(int Id, String Nombre){
-        this.id = Id;
+    public Ciudad(int id, String Nombre){
+        this.id = id;
         this.nombre = Nombre;
     }
 
