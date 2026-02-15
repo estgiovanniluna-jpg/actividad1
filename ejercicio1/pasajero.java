@@ -13,7 +13,7 @@ public class pasajero {
         this.genero = genero;
     }
 
-    public int getId() {
+    public int getIdentificacion() {
         return id;
     }
 

@@ -41,7 +41,7 @@ public class tiquete{
         System.out.println("Ciudad Destino: " + vuelo.getCiudadLlegada().getNombre());
         System.out.println("Hora Salida: " + vuelo.getHoraSalida());
         System.out.println("\nPasajero: " + pasajero.getNombre());
-        System.out.println("ID: " + pasajero.getIdentificacion());
+        System.out.println("CC: " + pasajero.getIdentificacion());
         System.out.println("Silla: " + numeroSilla);
     }
 }
