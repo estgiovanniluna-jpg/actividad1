@@ -11,7 +11,7 @@ public class producto {
     private double porcentajeIva;
 
     
-    public producto(int id, String tipoProducto, , String descripcion,Double precioVenta, int cantidadActual, int proveedor,double porcentajeIva) {
+    public producto(int id, String tipoProducto,  String descripcion,Double precioVenta, int cantidadActual, int proveedor,double porcentajeIva) {
 
         this.id = id;
         this.tipoProducto = tipoProducto;
