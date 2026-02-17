@@ -3,9 +3,9 @@ package ejercicio2;
 import java.util.ArrayList;
 
 public class tiendaSeryus {
-    private int id;
     private String nombre;
     private ArrayList<producto> productos;    // Lista de productos de la tienda
+    private int id;
 
     // Constructor
     public tiendaSeryus(int id, String nombre) {

@@ -7,7 +7,6 @@ public class compra {
     private int fechaCompra;
     private cliente cliente;
     private ArrayList<producto> productos;
-    private proveedor proveedor;
     private producto producto;
     private double valorTotalIva;
     private double totalCompra;
