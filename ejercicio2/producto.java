@@ -2,16 +2,14 @@ package ejercicio2;
 
 public class producto {
 
-    private String tipoProducto;
+    private tipo_producto tipoProducto;
     private int id;
     private String descripcion;
     private Double precioVenta;
     private int cantidadActual;
-    private int proveedor;
-    private double porcentajeIva;
+    private proveedor proveedor;
 
-    
-    public producto(int id, String tipoProducto,  String descripcion,Double precioVenta, int cantidadActual, int proveedor,double porcentajeIva) {
+    public producto(int id, tipo_producto tipoProducto, String descripcion, Double precioVenta, int cantidadActual, proveedor proveedor) {
 
         this.id = id;
         this.tipoProducto = tipoProducto;
@@ -19,14 +17,13 @@ public class producto {
         this.precioVenta = precioVenta;
         this.cantidadActual = cantidadActual;
         this.proveedor = proveedor;
-        this.porcentajeIva = porcentajeIva;
     }
 
-    public String getTipoProducto() {
+    public tipo_producto getTipoProducto() {
         return tipoProducto;
     }
 
-    public void setTipoProducto(String tipoProducto) {
+    public void setTipoProducto(tipo_producto tipoProducto) {
         this.tipoProducto = tipoProducto;
     }
 
@@ -62,19 +59,11 @@ public class producto {
         this.cantidadActual = cantidadActual;
     }
 
-    public int getProveedor() {
+    public proveedor getProveedor() {
         return proveedor;
     }
 
-    public void setProveedor(int proveedor) {
+    public void setProveedor(proveedor proveedor) {
         this.proveedor = proveedor;
-    }
-
-    public double getPorcentajeIva() {
-        return porcentajeIva;
-    }
-
-    public void setPorcentajeIva(Double porcentajeIva) {
-        this.porcentajeIva = porcentajeIva;
     }
 }

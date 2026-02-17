@@ -1,12 +1,18 @@
 package ejercicio2;
 
+import java.util.ArrayList;
+
 public class compra {
 
     private int consecutivoCompra;
     private int fechaCompra;
+    private cliente cliente;
+    private proveedor proveedor;
+    private producto producto;
     private double valorTotalIva;
     private int totalCompra;
-    private producto producto;
+
+    private ArrayList<producto> productos;
 
     public compra(int consecutivoCompra, int fechaCompra, double valorTotalIva, int totalCompra, producto producto){
         this.consecutivoCompra = consecutivoCompra;
