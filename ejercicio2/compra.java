@@ -4,14 +4,16 @@ public class compra {
 
     private int consecutivoCompra;
     private int fechaCompra;
-    private int valorTotalIva;
+    private double valorTotalIva;
     private int totalCompra;
+    private producto producto;
 
-    public compra(int consecutivoCompra, int fechaCompra, int valorTotalIva, int totalCompra) {
+    public compra(int consecutivoCompra, int fechaCompra, double valorTotalIva, int totalCompra, producto producto){
         this.consecutivoCompra = consecutivoCompra;
         this.fechaCompra = fechaCompra;
         this.valorTotalIva = valorTotalIva;
         this.totalCompra = totalCompra;
+        this.producto=producto;
     }
 
     public int getConsecutivoCompra() {
@@ -30,11 +32,11 @@ public class compra {
         this.fechaCompra = fechaCompra;
     }
 
-    public int getValorTotalIva() {
+    public double  lorTotalIva() {
         return valorTotalIva;
     }
 
-    public void setValorTotalIva(int valorTotalIva) {
+    public void setValorTotalIva(double valorTotalIva){
         this.valorTotalIva = valorTotalIva;
     }
 
@@ -45,4 +47,14 @@ public class compra {
     public void setTotalCompra(int totalCompra) {
         this.totalCompra = totalCompra;
     }
+
+    public  producto getProducto() {
+        return producto; 
+    }   
+
+
+    public void setProducto( producto producto) {
+        this.producto = producto;
+    }
+
 }

@@ -8,9 +8,10 @@ public class producto {
     private Double precioVenta;
     private int cantidadActual;
     private int proveedor;
+    private double porcentajeIva;
 
     
-    public producto(String tipoProducto, int id, String descripcion,Double precioVenta, int cantidadActual, int proveedor) {
+    public producto(String tipoProducto, int id, String descripcion,Double precioVenta, int cantidadActual, int proveedor,double porcentajeIva) {
 
         this.tipoProducto = tipoProducto;
         this.id = id;
@@ -18,6 +19,7 @@ public class producto {
         this.precioVenta = precioVenta;
         this.cantidadActual = cantidadActual;
         this.proveedor = proveedor;
+        this.porcentajeIva = porcentajeIva;
     }
 
     public String getTipoProducto() {
@@ -66,5 +68,13 @@ public class producto {
 
     public void setProveedor(int proveedor) {
         this.proveedor = proveedor;
+    }
+
+    public double getPorcentajeIva() {
+        return porcentajeIva;
+    }
+
+    public void setPorcentajeIva(Double porcentajeIva) {
+        this.porcentajeIva = porcentajeIva;
     }
 }
