@@ -11,7 +11,7 @@ public class tiendaSeryus {
     public tiendaSeryus(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.productos = new ArrayList<>();   // Inicializar lista vacía
+        this.productos = new ArrayList<>();   // Inicializar lista vacíA
     }
 
     // Agregar producto a la tienda
